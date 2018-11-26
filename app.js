@@ -59,6 +59,9 @@ module.exports = app;
 app.get("/layout", function(req, res) {
   res.render("layout")
 })
+app.get("/login", function(req, res) {
+  res.render("login")
+})
 
 app.listen(3000)
 
